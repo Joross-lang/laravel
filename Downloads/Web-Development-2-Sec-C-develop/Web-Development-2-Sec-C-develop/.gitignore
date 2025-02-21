@@ -21,3 +21,34 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+
+# Ignore system files
+.git/
+.gitconfig
+Thumbs.db
+desktop.ini
+
+# Ignore user folders
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+
+# Ignore executables and installers
+*.exe
+*.msi
+*.tar.gz
+*.zip
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore node_modules
+node_modules/
+package-lock.json
